@@ -178,7 +178,7 @@ footer {
   color: white;
   font-size: 0.9em;
 }
-/* Bulle de chat (bouton flottant) */
+/* Bulle de chat (bouton rond en bas à droite) */
 #chat-bubble {
   position: fixed;
   bottom: 20px;
@@ -191,13 +191,13 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 30px;
+  font-size: 28px;
   cursor: pointer;
   z-index: 9999;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
-/* Boîte de chat */
+/* Fenêtre de chat */
 #chat-box {
   position: fixed;
   bottom: 100px;
@@ -208,7 +208,7 @@ footer {
   border-radius: 10px;
   border: 1px solid #ddd;
   padding: 10px;
-  display: none;
+  display: none; /* caché par défaut */
   flex-direction: column;
   z-index: 9999;
   box-shadow: 0 4px 10px rgba(0,0,0,0.2);
@@ -218,7 +218,6 @@ footer {
   flex: 1;
   overflow-y: auto;
   margin-bottom: 10px;
-  padding-right: 5px;
 }
 
 #chat-input {
