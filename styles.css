@@ -237,3 +237,103 @@ footer {
   border-radius: 5px;
   cursor: pointer;
 }
+#map img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+/* ------------------ Section Tarifs ------------------ */
+#tarifs p {
+  text-align: center;
+  font-size: 1.1em;
+  margin-bottom: 20px;
+}
+
+#tarifs table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+#tarifs th, #tarifs td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+}
+
+#tarifs th {
+  background-color: #ff77b4;
+  color: white;
+}
+
+#tarifs td {
+  background-color: #fff0f5; /* léger rose pour différencier les lignes */
+}
+
+#tarifs button {
+  background-color: #ff77b4;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#tarifs button:hover {
+  background-color: #e6619c;
+}
+/* ------------------ Réseaux sociaux ------------------ */
+#socials a {
+  display: inline-block;
+  margin-right: 15px; /* espace entre les icônes */
+  transition: transform 0.3s;
+  vertical-align: middle;
+}
+
+#socials a img {
+  width: 40px;
+  height: 40px;
+}
+
+#socials a:hover {
+  transform: scale(1.2);
+}
+}
+
+#socials a img {
+  width: 40px;
+  height: 40px;
+}
+
+#socials a:hover {
+  transform: scale(1.2);
+}
+/* ------------------ Liens Charte & Règlement ------------------ */
+.doc-link {
+  display: block; /* force le lien sur une ligne */
+  margin-top: 5px;
+  text-decoration: none;
+  color: #ff77b4 !important; /* ajoute !important pour forcer la couleur */
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+.doc-link:hover {
+  color: #e6619c !important;
+}
+/* Lien bénévole */
+.volunteer-link {
+  display: inline-block;
+  text-decoration: none;
+  color: #ff77b4; /* rose comme tes liens charte/règlement */
+  font-weight: 600;
+  transition: color 0.3s;
+  margin-top: 5px;
+}
+
+.volunteer-link:hover {
+  color: #e6619c; /* rose plus foncé au survol */
+}
